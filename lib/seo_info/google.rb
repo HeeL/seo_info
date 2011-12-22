@@ -10,9 +10,14 @@ module SeoInfo
 
     def indexed_pages
       results[:indexed_pages] ||= begin
-        page = Nokogiri::HTML(open("https://www.google.com/search?hl=en&safe=off&q=site%3A#{site_url}&btnG=Search").read)
-        page.xpath('//div[@id="subform_ctrl"]/div/b/text()')[2].text
+        page = Nokogiri::HTML(get_page)
+        page.xpath('//div[@id="subform_ctrl"]/div/b/text()')[2].text.gsub(/[^\d]/,'').to_i
       end
+    end
+
+    private
+    def get_page
+      open("https://www.google.com/search?hl=en&safe=off&q=site%3A#{site_url}&btnG=Search").read
     end
   end
 end

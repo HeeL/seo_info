@@ -19,5 +19,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_development_dependency "rspec"
-  s.add_dependency "nokogiri"
+  s.add_runtime_dependency "nokogiri"
 end
