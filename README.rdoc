@@ -1,0 +1,13 @@
+== Seo-info
+
+Seo-info gem gets different seo information for web-sites.
+
+== Features
+
+Things that you are able to do right now with this gem:
+
+* None so far
+
+== Contributing
+
+If you consider to contribute to seo-info gem, please try to cover your code with tests
