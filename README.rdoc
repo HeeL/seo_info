@@ -1,6 +1,6 @@
-== Seo-info
+== Description
 
-Seo-info gem gets different seo information for web-sites.
+seo_info gem gets different seo information for web-sites.
 
 == Features
 
@@ -10,4 +10,4 @@ Things that you are able to do right now with this gem:
 
 == Contributing
 
-If you consider to contribute to seo-info gem, please try to cover your code with tests
+If you consider to contribute to seo_info gem, please try to cover your code with tests
