@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = SeoInfo::VERSION
   s.authors     = ["Sergey Parizhskiy", "Dina Zhyliaieva"]
   s.email       = ["parizhskiy@gmail.com", "dinaionenko@reevoo.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/HeeL/seo_info"
   s.summary     = %q{SEO information for web-sites}
   s.description = %q{Gets different seo information such as Page Rank, Alexa Rank, number of indexed pages in different search engines and so on.}
 
