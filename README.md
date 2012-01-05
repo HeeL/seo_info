@@ -3,12 +3,28 @@ Description
 
 seo_info gem gets different seo information for web-sites.
 
-Features
-========
+Usage
+=====
 
 Things that you are able to do right now with this gem:
 
+* Google Page Rank for pages and web-sites:
+
+<code>
+google = SeoInfo::Google.new('example.com')
+
+google.page_rank
+</code>
+
+
 * Number of pages indexed by Google
+
+<code>
+google = SeoInfo::Google.new('example.com')
+
+google.indexed_pages
+</code>
+
 
 Install
 =======
