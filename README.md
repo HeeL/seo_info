@@ -10,13 +10,13 @@ Things that you are able to do right now with this gem:
 
 * Google Page Rank for pages and web-sites:
 
-    google = SeoInfo::Google.new('example.com')
-    google.page_rank
+        google = SeoInfo::Google.new('example.com')
+        google.page_rank
 
 * Number of pages indexed by Google
 
-    google = SeoInfo::Google.new('example.com')
-    google.indexed_pages
+        google = SeoInfo::Google.new('example.com')
+        google.indexed_pages
 
 Install
 =======
